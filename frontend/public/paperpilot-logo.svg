@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 54" fill="none">
+  <!-- Icon Mark -->
+  <g transform="translate(0, 3)">
+    <rect x="4" y="4" width="40" height="40" rx="10" fill="#102C3C" />
+    <path d="M12 14H22" stroke="#173B4F" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M12 20H18" stroke="#173B4F" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Supersonic Paper Plane Wings -->
+    <path d="M38 10L14 26L25 29L38 10Z" fill="#8AC8F9"/>
+    <path d="M38 10L25 29L28 38L38 10Z" fill="#B8F2DC"/>
+    <path d="M25 29L22 35L28 38L25 29Z" fill="#173B4F"/>
+  </g>
+  
+  <!-- Wordmark -->
+  <text x="56" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#173B4F" letter-spacing="-0.5">Paper<tspan fill="#102C3C" font-weight="900">Pilot</tspan></text>
+  <!-- Tagline -->
+  <text x="56" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="9.5" font-weight="600" fill="#536777" letter-spacing="0.2">Your Documents, Under Control.</text>
+</svg>

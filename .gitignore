@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+env/
+venv/
+ENV/
+
+# Temporary storage & Uploads
+backend/storage/uploads/*
+backend/storage/outputs/*
+backend/storage/workflow_runs/*
+backend/storage/signings/*
+backend/storage/*.db
+backend/storage/*.db-journal
+backend/storage/*.db-wal
+!backend/storage/uploads/.gitkeep
+!backend/storage/outputs/.gitkeep
+!backend/storage/workflow_runs/.gitkeep
+!backend/storage/signings/.gitkeep
+
+# Environment & Local Secrets
+.env
+.env.local
+backend/.env
+
+# Temporary artifacts & previews
+report_preview_*.png
+tmp/
+temp/
+
+# Root scratch / one-off diagnostic scripts
+audit_tools.py
+check_app.py
+find_filename_issues.py
+fix_*.py
+generate_final_*.py
+inspect_*.py
+read_*.py
+test_*.py
+Demo.html
