@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: paperpilot
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    region: oregon
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: SECRET_KEY
+        generateValue: true
+      - key: RAZORPAY_KEY_ID
+        value: rzp_test_TrqJtaYIlhOcZX
+      - key: RAZORPAY_KEY_SECRET
+        value: fZMYdepFxGHDs1L1oSVp952L
+      - key: RAZORPAY_PAYMENT_LINK
+        value: https://razorpay.me/@nishantrajeshpatil
+      - key: CONTACT_RECIPIENT
+        value: patilnishant787@gmail.com
